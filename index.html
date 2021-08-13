@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)file:///C:/Users/ELCOT/Desktop/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>
+Armstrong number in c
+</title>
+</head>
+<body style="background-color:skyblue;"><hr>
+<h1 style="color:blue;text-align:center;">Armstrong number in c</h1><hr><br>
+<h2 style="background-color:tomato;font-size:150%;">PROGRAM:
+</h2><br>
+<hr>
+<pre><p style="background-color:white;border: 2px solid darkblue;font-size:
+120%">
+#include<stdio.h>
+int main()
+{
+	int a,b,c,sum=0;
+	printf("Enter a number:");
+	scanf("%d",&amp;a);
+	b=a;
+	while(b!=0){
+		c=b%10;
+		sum+=c*c*c;
+		b/=10;
+	}
+	if(sum==a)
+	 printf("It is an Armstrong number");
+	else
+	 printf("It is not an Armstrong number");
+}<br>
+</stdio.h></p></pre>
+<hr>
+<h2 style="background-color:orange;font-size:150%;">OUTPUT:</h2>
+<br>
+<pre><p style="background-color:white;border: 2px solid black;
+font-size:120%;">
+Enter a number:153
+It is an Armstrong number<br>
+</p>
+</pre>
+<hr>
+<address>
+written by raja.</address>
+
+</body></html>
